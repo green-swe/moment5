@@ -22,8 +22,8 @@ session_start();
   <?php include './includes/header.php' ?>
   <h3>If you want to look at the code, you can find it by clicking the icons below!</h3><br>
   <div id="downloadWrapper">
-    <a href=""><img id="git" src="./img/github.png" alt=""></a>
-    <a href=""><img id="gog" src="./img/gogdrive.png" alt=""></a>
+    <a href="https://github.com/green-swe/moment5" target="_blank"><img id="git" src="./img/github.png" alt=""></a>
+    <a href="https://drive.google.com/file/d/1WVma_k3p9y5rxhBxdmqWRwNX_4XkeblW/view?usp=sharing" target="_blank"><img id="gog" src="./img/gogdrive.png" alt=""></a>
   </div>
   <footer><?php include './includes/footer.php' ?></footer>
 </body>

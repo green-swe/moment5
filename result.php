@@ -30,8 +30,14 @@ if (!isset($_SESSION['convert'])) {
   <?php include './includes/header.php' ?>
 
   <?php
-  echo "<h3>You entered this string: <br><br>'" . $input . "'</h3><br><hr>";
-  echo "<h3>The result after your string being converted to the robber languages is: <br><br>'<div class='resultText'>" . $convert . "'</div></h3>"; ?>
+
+  if ($input == "") {
+    echo $convert;
+  } else {
+    echo "<h3>You entered this string: <br><br>'" . $input . "'</h3><br><hr>";
+    echo "<h3>The result after your string being converted to the robber languages is: <br><br>'<div class='resultText'>" . $convert . "'</div></h3>";
+  }
+  ?>
   <footer><?php include './includes/footer.php' ?></footer>
 </body>
 
