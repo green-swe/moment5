@@ -35,7 +35,7 @@ if (!isset($_SESSION['convert'])) {
     echo $convert;
   } else {
     echo "<h3>You entered this string: <br><br>'" . $input . "'</h3><br><hr>";
-    echo "<h3>The result after your string being converted to the robber languages is: <br><br>'<div class='resultText'>" . $convert . "'</div></h3>";
+    echo "<h3>The result after your string being converted to the robber languages is: <br><br><div class='resultText'>'" . $convert . "'</div></h3>";
   }
   ?>
   <footer><?php include './includes/footer.php' ?></footer>
